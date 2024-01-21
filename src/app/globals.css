@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --layout-max-w: 520px;
+    --layout-min-h: 100dvh;
+  }
+  .layout {
+    @apply mx-auto min-h-[var(--layout-min-h)] w-full max-w-[var(--layout-max-w)];
+  }
+  body {
+    /* TODO font */
+    /* @apply font-sans;  */
+  }
+}

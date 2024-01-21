@@ -1,3 +1,1 @@
-# 돈Worry
-
-개발 기간 배포용 레포입니다.
+# dnd-10th-3-frontend
